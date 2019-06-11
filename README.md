@@ -1,25 +1,18 @@
-# Ejercicio Docker
+# Ejercicio Linux Docker
 
-Comandos a ejecutar
+Clonar el respositorio, abrir el terminal en el mismo y ejecutar los siguientes comandos:
 
-...
+- vagrant ssh
+- cd /vagrant
+- cd local
+- docker build -t lin .
+- docker run -p 8082:4000 lin
 
-vagrant ssh
+En este punto ya esta publicada la aplicación, para verificar que esta funciónanado, abrimos un nuevo terminal en la misma carpeta y ejecutamos:
 
-cd /vagrant
+- vagrant ssh
+- curl localhost:8082
 
-cd local
+Por ultimo desde el navegador podemos acceder a la aplciación mediante el siguiente URL:
 
-docker build -t lin . 
-
-docker run -p 8082:4000 lin 
-
-...
-
-# Desde otra terminal ssh luego verificar con
-
-curl localhost:8082 
-
-...
-
-La URL es 'http://localhost:8082/'
+- http://localhost:8082/
