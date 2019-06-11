@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/mauro/Documents/GitHub/docker-test1","disabled":false,"__vagrantfile":true},"vagrant-cache":{"id":"vagrant-cache","owner":"_apt","guestpath":"/tmp/vagrant-cache","hostpath":"C:/Users/mauro/.vagrant.d/cache/ubuntu/bionic64","disabled":false,"__vagrantfile":true}}}
