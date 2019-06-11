@@ -1,4 +1,4 @@
-# Ejercicio Linux Docker
+# Ejercicio Linux Docker Node
 
 Clonar el respositorio, abrir el terminal en el mismo y ejecutar los siguientes comandos:
 
